@@ -30,7 +30,7 @@ export const updateCanvas = (objects, current) => {
 
 export const windowResized = (e, objects, current) => {
   if (!ctx) return;
-  canvas.width = e.target.innerWidth
-  canvas.height = e.target.innerHeight
+  canvas.width = e.target.innerWidth;
+  canvas.height = e.target.innerHeight;
   updateCanvas(objects, current);
 };
